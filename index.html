@@ -1,0 +1,672 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mitra UI</title>
+    <link rel="stylesheet" href="components.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header class="page-main-menu">
+        <img src="./images/hands-peace-bnw.png" alt="logo" class="hero-image">
+        <div class="hero-name">Mitra UI</div>
+        <a href="" class="get-started">Get Started</a>
+        <a href="" class="docs">Docs</a>
+        <a href="" class="example-pages">Example Pages</a>
+        <a href="" class="github"><i class="fa fa-github"></i></a>
+    </header>
+    <div class="component-list">
+        <h1 class="side-nav-components-list">My Components</h1>
+        <ul class="components-name">
+            <li><a href="#">Avatars</a></li>
+            <li><a href="#alert">Alerts</a></li>
+            <li><a href="#badges">Badges</a></li>
+            <li><a href="">Buttons</a></li>
+            <li><a href="">Images</a></li>
+            <li><a href="#">Notify</a></li>
+            <li><a href="">Snackbar</a></li>
+            <li><a href="">Cards</a></li>
+            <li><a href="">Typography</a></li>
+            <li><a href="">Input</a></li>
+            <li><a href="">List</a></li>
+            <li><a href="">Navigation</a></li>
+            <li><a href="">Modal</a></li>
+            <li><a href="">Rating</a></li>
+            <li><a href="">Slider</a></li>
+            <li><a href="#grid">Simplified Grid</a></li>
+            
+            
+        </ul>
+    </div>
+    <div class="component-display">
+        <section id="avatar">
+
+            <div id="avatar" class="container">
+                <div class="heading">
+                    <h2 class="avatar">AVATARS</h2>
+                    <h3>With hover effect</h3>
+                </div>
+                <div class="component">
+                    <div class="avatar-demo-with-hover">
+                        <img class="avatar-image-with-hover size-xl" src="./images/avatar.jpg"
+                            alt="avatar image with hover effect" />
+                        <img class="avatar-image-with-hover size-large" src="./images/avatar.jpg"
+                            alt="avatar image with hover effect" />
+                        <img class="avatar-image-with-hover size-medium" src="./images/avatar.jpg"
+                            alt="avatar image with hover effect" />
+                        <img class="avatar-image-with-hover size-small" src="./images/avatar.jpg"
+                            alt="avatar image with hover effect" />
+                        <img class="avatar-image-with-hover size-xs" src="./images/avatar.jpg"
+                            alt="avatar image with hover effect" />
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+        <div class="container">
+            <div class="heading">
+                <h3>Without hover effect</h3>
+            </div>
+            <div class="component">
+                <div class="avatar-demo-without-hover">
+                    <img class="avatar-image-without-hover size-xl" src="./images/avatar.jpg"
+                        alt="avatar image with hover effect" />
+                    <img class="avatar-image-without-hover size-large" src="./images/avatar.jpg"
+                        alt="avatar image with hover effect" />
+                    <img class="avatar-image-without-hover size-medium" src="./images/avatar.jpg"
+                        alt="avatar image with hover effect" />
+                    <img class="avatar-image-without-hover size-small" src="./images/avatar.jpg"
+                        alt="avatar image with hover effect" />
+                    <img class="avatar-image-without-hover size-xs" src="./images/avatar.jpg"
+                        alt="avatar image with hover effect" />
+                </div>
+            </div>
+        </div>
+
+        <div id="alert" class="container">
+            <div class="heading">
+                <h2 class="alert">ALERTS</h2>
+            </div>
+            <div class="component">
+                <div class="alert-demo">
+                    <div class="alert type-success">
+                        <script src="https://cdn.lordicon.com//libs/frhvbuzj/lord-icon-2.0.2.js"></script>
+                        <lord-icon src="https://cdn.lordicon.com//ssdupzsv.json" trigger="loop"
+                            colors="primary:#ffffff,secondary:#08a88a" style="width:12%;height:auto">
+                        </lord-icon>
+                        <p>Task done successfully</p>
+                        <button class="close">x</button>
+                    </div>
+
+                    <div class="alert type-failure">
+                        <i class="fa fa-exclamation-circle"></i>
+                        <p>Some error occurred</p>
+                        <button class="close">x</button>
+                    </div>
+
+                    <div class="alert type-warning">
+                        <i class="fas fa-exclamation-triangle"></i>
+                        <p>This is a warning!</p>
+                        <button class="close">x</button>
+                    </div>
+
+                    <div class="alert type-info">
+                        <i class="fas fa-info-circle"></i>
+                        <p>I am some info!</p>
+                        <button class="close">x</button>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        <div id="badges" class="container">
+            <div class="heading">
+                <h2 class="badge">BADGES</h2>
+            </div>
+            <div class="component">
+                <div class="badge-demo">
+                    <div class="badge-type count">23</div>
+                    <div class="badge-type online"></div>
+                    <div class="badge-type offline"></div>
+                    <div class="badge-type offer">9% off</div>
+                    <div class="badge-type new">NEW</div>
+                    <div class="badge-type trending">TRENDING</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="heading">
+                <h3>Badge on Icons</h3>
+            </div>
+            <div class="component">
+                <div class="badge-on-icon">
+                    <div class="icon-type notification">
+                        <i class="fas fa-bell"></i>
+                        <div class="badge-type count">23</div>
+                    </div>
+                </div>
+                <div class="badge-on-icon">
+                    <div class="icon-type cart">
+                        <i class="fas fa-shopping-cart"></i>
+                        <div class="badge-type count">23</div>
+                    </div>
+                </div>
+                <div class="badge-on-icon">
+                    <div class="icon-type wishlist">
+                        <i class="fas fa-heart"></i>
+                        <div class="badge-type count">23</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="heading">
+                <h3>Badge on Avatars</h3>
+            </div>
+            <div class="component">
+                <div class="badge-on-avatar-online">
+                    <img class="avatar-image-without-hover size-medium" src="./images/avatar.jpg"
+                        alt="avatar image with hover effect" />
+                    <div class="badge-type online"></div>
+                </div>
+
+                <div class="badge-on-avatar-offline">
+                    <img class="avatar-image-without-hover size-medium" src="./images/avatar.jpg"
+                        alt="avatar image with hover effect" />
+                    <div class="badge-type offline"></div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="heading">
+                <h2 class="buttons">BUTTONS</h2>
+                <h3>Normal Buttons</h3>
+            </div>
+            <div class="component">
+                <div class="button-demo">
+                    <button class="button primary-btn">PRIMARY</button>
+                    <button class="button secondary-btn">SECONDARY</button>
+                    <button class="button tertiary-btn">TERTIARY</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="heading">
+                <h3 class="link">Link Buttons</h3>
+            </div>
+            <div class="component">
+                <div class="button-link-demo">
+                    <button class="button  primary-link">PRIMARY</button>
+                    <button class="button secondary-link">SECONDARY</button>
+                    <button class="button tertiary-link">TERTIARY</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="heading">
+                <h3 class="icon-buttons">Buttons with icons</h3>
+            </div>
+            <div class="component">
+                <div class="icon-button-demo">
+                    <button class="button  icon-primary-btn"><i class="fas fa-shopping-cart"></i>PRIMARY</button>
+                    <button class="button icon-secondary-btn"><i class="fas fa-bell"></i>SECONDARY</button>
+                    <button class="button icon-tertiary-btn"><i class="fas fa-heart"></i>TERTIARY</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="heading">
+                <h3 class="floating-action-button">Floating Action Buttons</h3>
+            </div>
+            <div class="component">
+                <div class="floating-action-button-demo">
+                    <div class="floating-action-button-color type-primary">+</div>
+                    <div class="floating-action-button-color type-secondary">+</div>
+                    <div class="floating-action-button-color type-tertiary">+</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="heading">
+                <h2 class="image">IMAGES</h2>
+                <h3>Responsive Image</h3>
+            </div>
+            <div class="component">
+                <div class="responsive-image-demo">
+                    <img src="./images/group.jpg" />
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="heading">
+                <h3>Round Image</h3>
+            </div>
+            <div class="component">
+                <div class="round-image-demo">
+                    <img src="./images/breathe.jpg" />
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="heading">
+                <h2 class="notify">NOTIFY</h2>
+            </div>
+            <div class="component">
+                <div class="notify-demo">
+                    <p>Message sent</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="heading">
+                <h2 class="snackbar">SNACKBAR</h2>
+            </div>
+            <div class="component">
+                <div class="snackbar-demo">
+                    <p>Message sent</p>
+                    <div class="button tertiary-btn">UNDO</div>
+                </div>
+            </div>
+        </div>
+
+
+
+        <div class="container">
+            <div class="heading">
+                <h2 class="card">CARDS</h2>
+                <h3>Cards with Badges</h3>
+            </div>
+            <div class="component">
+                <div class="card-demo">
+                    <div class="card-with-badge-demo">
+                        <div class="card-container">
+                            <img class="product-image" src="./images/phone-a-friend.jpg" alt="product-image" />
+                            <div class="product-name-with-wishlist-icon">
+                                <h4>Product Name</h4>
+                                <i class="fas fa-heart"></i>
+                            </div>
+                            <p class="product-description-text">Product Description</p>
+
+                            <div class="product-price">
+                                <p class="current-product-price">₹599</p><small
+                                    class="striked-original-price">₹1299</small>
+                                <small class="amount-saved">Save: ₹700</small>
+                            </div>
+                            <button class="button primary-btn"></i>ADD TO CART</button>
+                            <div class="card-badge-new">
+                                <div class="badge-type new">NEW</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card-with-badge-demo">
+                        <div class="card-container">
+                            <img class="product-image" src="./images/phone-a-friend.jpg" alt="product-image" />
+                            <div class="product-name-with-wishlist-icon">
+                                <h4>Product Name</h4>
+                                <i class="fas fa-heart"></i>
+                            </div>
+                            <p class="product-description-text">Product Description</p>
+
+                            <div class="product-price">
+                                <p class="current-product-price">₹599</p><small
+                                    class="striked-original-price">₹1299</small>
+                                <small class="amount-saved">Save: ₹700</small>
+                            </div>
+                            <button class="button primary-btn"></i>ADD TO CART</button>
+                            <div class="card-badge-trending">
+                                <div class="badge-type trending">TRENDING</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card-with-badge-demo">
+                        <div class="card-container">
+                            <img class="product-image" src="./images/phone-a-friend.jpg" alt="product-image" />
+                            <div class="product-name-with-wishlist-icon">
+                                <h4>Product Name</h4>
+                                <i class="fas fa-heart"></i>
+                            </div>
+                            <p class="product-description-text">Product Description</p>
+
+                            <div class="product-price">
+                                <p class="current-product-price">₹599</p><small
+                                    class="striked-original-price">₹1299</small>
+                                <small class="amount-saved">Save: ₹700</small>
+                            </div>
+                            <button class="button primary-btn"></i>ADD TO CART</button>
+                            <div class="card-badge-offer">
+                                <div class="badge-type offer">9% off</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="heading">
+                <h3>Cards with a Dismiss Button</h3>
+            </div>
+            <div class="component">
+                <div class="card-demo">
+                    <div class="card-with-dismiss-demo">
+                        <div class="card-container">
+                            <img class="product-image" src="./images/phone-a-friend.jpg" alt="product-image" />
+                            <div class="product-name-with-wishlist-icon">
+                                <h4>Product Name</h4>
+                                <i class="fas fa-heart"></i>
+                            </div>
+                            <p class="product-description-text">Product Description</p>
+
+                            <div class="product-price">
+                                <p class="current-product-price">₹599</p><small
+                                    class="striked-original-price">₹1299</small>
+                                <small class="amount-saved">Save: ₹700</small>
+                            </div>
+                            <button class="button primary-btn"></i>ADD TO CART</button>
+                            <button class="card-dismiss-button">
+                                <i class="fas fa-lg fa-times"></i>
+                            </button>
+                        </div>
+                    </div>
+
+                    <div class="card-with-dismiss-demo">
+                        <div class="card-container">
+                            <img class="product-image" src="./images/phone-a-friend.jpg" alt="product-image" />
+                            <div class="product-name-with-wishlist-icon">
+                                <h4>Product Name</h4>
+                                <i class="fas fa-heart"></i>
+                            </div>
+                            <p class="product-description-text">Product Description</p>
+
+                            <div class="product-price">
+                                <p class="current-product-price">₹599</p><small
+                                    class="striked-original-price">₹1299</small>
+                                <small class="amount-saved">Save: ₹700</small>
+                            </div>
+                            <button class="button primary-btn"></i>ADD TO CART</button>
+                            <button class="card-dismiss-button">
+                                <i class="fas fa-lg fa-times"></i>
+                            </button>
+                        </div>
+                    </div>
+
+                    <div class="card-with-dismiss-demo">
+                        <div class="card-container">
+                            <img class="product-image" src="./images/phone-a-friend.jpg" alt="product-image" />
+                            <div class="product-name-with-wishlist-icon">
+                                <h4>Product Name</h4>
+                                <i class="fas fa-heart"></i>
+                            </div>
+                            <p class="product-description-text">Product Description</p>
+
+                            <div class="product-price">
+                                <p class="current-product-price">₹599</p><small
+                                    class="striked-original-price">₹1299</small>
+                                <small class="amount-saved">Save: ₹700</small>
+                            </div>
+                            <button class="button primary-btn"></i>ADD TO CART</button>
+                            <button class="card-dismiss-button">
+                                <i class="fas fa-lg fa-times"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="heading">
+                <h3 class="card-with-text-overlay">Cards with Text Overlay</h3>
+            </div>
+            <div class="component">
+                <div class="card-with-text-overlay-demo">
+
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="heading">
+                <h3 class="card-with-text-only">Text Only Cards</h3>
+            </div>
+            <div class="component">
+                <div class="card-demo">
+                    <div class="card-with-text-only-demo">
+                        <div class="card-container">
+                            <div class="product-name-with-wishlist-icon">
+                                <h4>Product Name</h4>
+                                <i class="fas fa-heart"></i>
+                            </div>
+                            <p class="product-additional-detail">Additional Detail</p>
+                            <p class="product-description-text">Lorem ipsum dolor sit, amet consectetur adipisicing
+                                elit.
+                                Nisi repudiandae, rerum, necessitatibus odio aperiam delectus officiis tenetur expedita
+                                laboriosam pariatur dicta reiciendis atque! Tempore magni eaque sequi repudiandae iure
+                                numquam!</p>
+                            <button class="button primary-btn"></i>Read More</button>
+                        </div>
+                    </div>
+
+                    <div class="card-with-text-overlay-demo">
+                        <div class="card-container">
+                            <div class="product-name-with-wishlist-icon">
+                                <h4>Product Name</h4>
+                                <i class="fas fa-heart"></i>
+                            </div>
+                            <p class="product-additional-detail">Additional Detail</p>
+                            <p class="product-description-text">Lorem ipsum dolor sit, amet consectetur adipisicing
+                                elit.
+                                Nisi repudiandae, rerum, necessitatibus odio aperiam delectus officiis tenetur expedita
+                                laboriosam pariatur dicta reiciendis atque! Tempore magni eaque sequi repudiandae iure
+                                numquam!</p>
+                            <button class="button primary-btn"></i>Read More</button>
+                        </div>
+                    </div>
+
+                    <div class="card-with-text-overlay-demo">
+                        <div class="card-container">
+                            <div class="product-name-with-wishlist-icon">
+                                <h4>Product Name</h4>
+                                <i class="fas fa-heart"></i>
+                            </div>
+                            <p class="product-additional-detail">Additional Detail</p>
+                            <p class="product-description-text">Lorem ipsum dolor sit, amet consectetur adipisicing
+                                elit.
+                                Nisi repudiandae, rerum, necessitatibus odio aperiam delectus officiis tenetur expedita
+                                laboriosam pariatur dicta reiciendis atque! Tempore magni eaque sequi repudiandae iure
+                                numquam!</p>
+                            <button class="button primary-btn"></i>Read More</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="heading">
+                <h2 class="text-utility">TYPOGRAPHY</h2>
+                <h3>Headings</h3>
+            </div>
+            <div class="component">
+                <div class="headings-demo">
+                    <h1>This is Heading-1</h1>
+                    <h2>This is Heading-2</h2>
+                    <h3>This is Heading-3</h3>
+                    <h4>This is Heading-4</h4>
+                    <h5>This is Heading-5</h5>
+                    <h6>This is Heading-6</h6>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="heading">
+                <h3 class="small-text">Small Text</h3>
+            </div>
+            <div class="component">
+                <div class="small-text-demo">
+                    <small>I am a small text.</small>
+                </div>
+            </div>
+        </div>
+    
+        <div class="container">
+            <div class="heading">
+                <h3 class="gray-text">Gray Text</h3>
+            </div>
+            <div class="component">
+                <div class="gray-text-demo">
+                    <p class="text-gray">I am a gray text.</p>
+                </div>
+            </div>
+        </div>
+    
+        <div class="container">
+            <div class="heading">
+                <h3 class="center-text">Center Text</h3>
+            </div>
+            <div class="component">
+                <div class="center-text-demo">
+                    <p class="text-center">This text is in center.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="heading">
+                <h2 class="nav-bar">NAVIGATION</h2>
+                <h3 class="horizontal-nav-bar">Horizontal Navigation Bar</h3>
+            </div>
+            <div class="component">
+                <div class="horizontal-nav-bar-demo">
+                    <div class="hero-name">LOGO</div>
+                    <a href="" class="get-started">Get Started</a>
+                    <a href="" class="docs">Docs</a>
+                    <a href="" class="example-pages">Example Pages</a>
+                    <a href="" class="github"><i class="fa fa-github"></i></a>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="heading">
+                <h3 class="vertical-nav-bar">Vertical Navigation Bar</h3>
+            </div>
+            <div class="component">
+                <div class="vertical-nav-bar-demo">
+                    <ul class="components-name">
+                        <li><a href="">Avatars</a></li>
+                        <li><a href="">Alerts</a></li>
+                        <li><a href="">Badges</a></li>
+                        <li><a href="">Buttons</a></li>
+                        <li><a href="">Images</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <section id="grid" class="container">
+            <div class="heading">
+                <h2 class="simplified-grid">SIMPLIFIED GRID</h2>
+                <h3 class="grid-2">2x2 Grid</h3>
+            </div>
+            <div class="component">
+                <div class="grid-2-demo">
+                    <div class="grid-item">1</div>
+                    <div class="grid-item">2</div>
+                    <div class="grid-item">3</div>
+                    <div class="grid-item">4</div>
+                </div>
+            </div>
+        </section>
+    
+        <section id="grid" class="container">
+            <div class="heading">
+                <h3 class="grid-3">3x3 Grid</h3>
+            </div>
+            <div class="component">
+                <div class="grid-3-demo">
+                    <div class="grid-item">1</div>
+                    <div class="grid-item">2</div>
+                    <div class="grid-item">3</div>
+                    <div class="grid-item">4</div>
+                    <div class="grid-item">5</div>
+                    <div class="grid-item">6</div>
+                    <div class="grid-item">7</div>
+                    <div class="grid-item">8</div>
+                    <div class="grid-item">9</div>
+                </div>
+            </div>
+        </section>
+
+        <section class="container">
+            <div class="heading">
+                <h2 class="modal">MODAL</h2>
+            </div>
+            <div class="component">
+                <div class="modal-demo">
+                    <button class="button primary-btn" id="modal-button"></i>OPEN MODAL</button>
+                    <div id="modal" class="modal-container">
+                        <div class="modal-content">
+                            <span class="close-modal">&times;</span>
+                            <p>Some text in the modal...</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <script type="text/javascript" src="index.js"></script>
+
+        <section class="container">
+            <div class="heading">
+                <h2 class="list">LIST</h2>
+                <h3 class="normal-list">Normal List</h3>
+            </div>
+            <div class="component">
+                <div class="normal-list-demo">
+                    <ul class="normal-list-items">
+                        <li>Avatar</li>
+                        <li>Alerts</li>
+                        <li>Badges</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+    
+        <section class="container">
+            <div class="heading">
+                <h3 class="normal-list">Stacked List</h3>
+            </div>
+            <div class="component">
+                <div class="stacked-list-demo">
+                    <ul class="stacked-list-items">
+                        <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum quidem explicabo in magni enim dolor animi sint quos quia, laudantium ad corrupti porro vero nobis culpa. Libero perspiciatis aliquam officia?</li>
+                        <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid quis quod perspiciatis dolorum adipisci dignissimos ut odio molestias minus sapiente dolore laudantium mollitia, aperiam incidunt maxime necessitatibus possimus exercitationem impedit!</li>
+                        <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt sequi autem modi porro perspiciatis magni deserunt facere maxime dolore minima? Sapiente ex fugiat placeat modi odio provident hic eos quos.</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+    </div>
+    </div>
+</body>
+
+</html>
