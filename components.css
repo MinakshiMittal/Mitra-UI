@@ -615,5 +615,25 @@ li>a:hover {
     border: 2px solid #903749;
 }
 
+.rating-type-1-demo > i {
+    color: #ff9800;
+
+}
+
+.rating-type-2-demo {
+    display: flex;
+    font-size: 1.2rem;
+    background-color: #0b710b;
+    flex-wrap: wrap;
+    color: white;
+    padding: 0.3rem;
+    width: fit-content;
+    border-radius: 0.5rem;
+}
+
+.rating-type-2-demo > i {
+    padding: 0.2rem;
+    font-size: 1rem;
+}
 
 
