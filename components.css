@@ -7,6 +7,7 @@ body {
     --tertiary-color: #6e7582;
     --color-pink:#f50057;
     --secondary-color:#903749;
+    --fifty-percent: 50%;
 }
 
 .container {
@@ -25,12 +26,12 @@ body {
 }
 
 .avatar-image-with-hover {
-    border-radius: 50%;
+    border-radius: var(--fifty-percent);
     transition: transform 0.2s;
 }
 
 .avatar-image-without-hover {
-    border-radius: 50%;
+    border-radius: var(--fifty-percent);
     transition: transform 0.2s;
 }
 
@@ -109,7 +110,7 @@ i {
 
 .badge-type {
     margin: 1rem;
-    border-radius: 50%;
+    border-radius: var(--fifty-percent);
     color: var(--primary-color);
     padding: 8px;
     text-align: center;
@@ -297,7 +298,7 @@ i {
 .floating-action-button-color {
     width:3rem;
     height: 3rem;
-    border-radius: 50%;
+    border-radius: var(--fifty-percent);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -305,6 +306,7 @@ i {
     font-size: 2rem;
     font-weight: bold;
     margin: 1rem;
+    cursor: pointer;
 }
 
 .type-primary {
@@ -389,7 +391,7 @@ button {
 }
 
 .round-image-demo > img {
-    border-radius: 50%;
+    border-radius: var(--fifty-percent);
     max-width:40%;
     width: 100%;
     height: auto;
@@ -428,7 +430,7 @@ button {
 
 .card-dismiss-button {
     color: white;
-    border-radius: 50%;
+    border-radius: var(--fifty-percent);
     position: absolute;
     top:0.5rem;
     right:0.5rem;
