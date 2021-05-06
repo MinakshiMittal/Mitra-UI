@@ -38,6 +38,7 @@ body {
 .avatar-image-with-hover:hover {
     transform: scale(1.5);
     margin: 1rem;
+    padding: 1rem;
 }
 
 .size-xl {
