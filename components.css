@@ -133,8 +133,8 @@ i {
 }
 
 .offer {
-    width: 32px;
-    height: 32px;
+    width: 2rem;
+    height: 2rem;
     background-color: var(--color-pink);
     color: white;
 }
@@ -295,8 +295,8 @@ i {
 }
 
 .floating-action-button-color {
-    width:50px;
-    height: 50px;
+    width:3rem;
+    height: 3rem;
     border-radius: 50%;
     display: flex;
     justify-content: center;
@@ -438,8 +438,8 @@ button {
     background-color: inherit;
     outline: none;
     border: none;
-    width: 15px;
-    height: 15px;
+    width: 2rem;
+    height: 2rem;
     padding: 1rem;
     font-size: 1rem;
 }
@@ -566,7 +566,7 @@ li>a:hover {
     display: none;
     position: fixed;
     z-index: 3;
-    padding-top: 100px;
+    padding-top: 6rem;
     left:0;
     top: 0;
     width: 100%;
@@ -579,7 +579,7 @@ li>a:hover {
 .modal-content {
     background-color: #fefefe;
     margin: auto;
-    padding: 20px;
+    padding: 1.3rem;
     border: 1px solid #888;
     width: 80%;
 }
@@ -587,7 +587,7 @@ li>a:hover {
 .close-modal {
     color: #aaaaaa;
     float: right;
-    font-size: 28px;
+    font-size: 2rem;
     font-weight: bold;
 }
 
