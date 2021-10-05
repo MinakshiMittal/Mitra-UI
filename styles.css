@@ -1,0 +1,229 @@
+body {
+  display: grid;
+  grid-template-areas: "head head" "nav main" "nav main";
+  grid-template-columns: 20% 1fr;
+  grid-template-rows: 0.4% 1fr;
+  position: relative;
+}
+
+.page-main-menu {
+  grid-area: head;
+  background-color: #f50057;
+  z-index: 2;
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 5vh;
+  padding: 1rem;
+}
+
+.hero-link {
+  text-decoration: none;
+  color: white;
+  margin-left: 0.5rem;
+}
+
+.component-list {
+  font-size: 1rem;
+  grid-area: nav;
+  position: fixed;
+  left: 0;
+  top: 0;
+  z-index: 1;
+  color: #161d6f;
+  width: 22%;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  align-items: center;
+  flex-wrap: wrap;
+  word-wrap: break-word;
+  /* overflow: scroll; */
+  height: 100%;
+  border-right: 5px double #f50057;
+  margin-top: 10vh;
+  /* padding: 1rem; */
+}
+
+.component-list .closebtn {
+  display: none;
+}
+
+.component-display {
+  grid-area: main;
+}
+
+header {
+  font-weight: 700;
+  font-size: 1rem;
+  color: white;
+  display: flex;
+  align-items: center;
+  margin-right: 1rem;
+}
+
+.hero-image {
+  width: 4%;
+  /* margin-top: 0.65rem; */
+}
+
+.hero-name {
+  flex-grow: 1;
+  font-size: 2rem;
+}
+
+.hero-image:hover {
+  /* margin-left: 1.5rem; */
+  margin-right: 0.5rem;
+  transform: scale(1.2);
+}
+
+.get-started,
+.docs,
+.example-pages {
+  color: white;
+  text-decoration: none;
+  margin-right: 2rem;
+}
+
+.github > i,
+.hamburger > i {
+  color: white;
+  margin-right: 3rem;
+  padding-right: 0;
+  font-size: 2.5rem;
+}
+
+.hamburger {
+  display: none;
+}
+
+.components-name {
+  list-style: none;
+}
+
+.components-name > a {
+  text-decoration: none;
+}
+
+.side-nav-components-list {
+  color: #161d6f;
+  display: flex;
+  margin-block-end: 0;
+}
+
+li > a {
+  text-decoration: none;
+  color: #6e7582;
+  font-size: 1.3rem;
+}
+
+li > a:hover {
+  /* padding: 1rem; */
+  color: #f50057;
+  font-weight: 700;
+}
+
+@media (max-width: 600px) {
+  body {
+    display: grid;
+    grid-template-areas:
+      "head head"
+      "nav main"
+      "nav main";
+    grid-template-columns: 1fr;
+    position: relative;
+  }
+
+  .component-list {
+    height: 100vh;
+    width: 0;
+    position: fixed;
+    z-index: 3;
+    top: -5.1rem;
+    left: 0;
+    overflow-x: hidden;
+    overflow-y: auto;
+    transition: 0.5s;
+    border: none;
+    align-items: flex-start;
+    opacity: 1;
+    background-color: #1e3658;
+    /* padding-left: 2rem; */
+    padding-top: 5rem;
+  }
+
+  .components-name li > a {
+    position: relative;
+    color: #6e7582;
+  }
+
+  .component-list li {
+    /* padding: 8px; */
+    text-decoration: none;
+    font-size: 1.5rem;
+    color: #818181;
+    /* display: block; */
+    transition: 0.3s;
+  }
+
+  .component-list li:hover,
+  .component-list li:focus {
+    color: #f50057;
+  }
+
+  .component-list .closebtn {
+    position: absolute;
+    top: 1rem;
+    right: 1.5rem;
+    font-size: 3.5rem;
+    text-decoration: none;
+    color: #818181;
+    display: block;
+  }
+
+  header {
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: center;
+    /* flex-wrap: wrap; */
+  }
+
+  .hero-image {
+    width: 8%;
+    margin-left: 0.3rem;
+  }
+
+  .hero-name {
+    /* flex-grow:1; */
+    font-size: 1.5rem;
+  }
+
+  .page-main-menu {
+    padding: 0;
+  }
+
+  .github > i,
+  .hamburger > i {
+    margin-right: 0.5rem;
+    font-size: 2rem;
+  }
+
+  .hamburger {
+    display: inline;
+  }
+
+  li > a {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 1.5rem;
+  }
+
+  .side-nav-components-list {
+    color: #f50057;
+    display: flex;
+    margin-block-end: 0;
+    padding-left: 2rem;
+  }
+}
